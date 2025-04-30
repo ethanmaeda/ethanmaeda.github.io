@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3a3a;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.linkedin-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.linkedin-link:hover {
+    color: #0077b5; /* LinkedIn blue */
+}
+
+.linkedin-link i {
+    font-size: 1.8em;
+}
